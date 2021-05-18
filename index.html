@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calc_container">
+        <input placeholder="0" id="result_input" type="text">
+        <p>Limpar</p>
+        <div class="button_row">
+            <button class="numbers" id="number1">7</button>
+            <button class="numbers" id="number2">8</button>
+            <button class="numbers" id="number3">9</button>
+            <button class="operation" id="sum">+</button>
+        </div>
+        <div class="button_row">
+            <button class="numbers" id="number4">4</button>
+            <button class="numbers" id="number5">5</button>
+            <button class="numbers" id="number6">6</button>
+            <button class="operation" id="subtract">-</button>
+        </div>
+        <div class="button_row">
+            <button class="numbers" id="number1">1</button>
+            <button class="numbers" id="number2">2</button>
+            <button class="numbers" id="number3">3</button>
+            <button class="operation" id="multiply">*</button>
+        </div>
+        <div class="button_row">
+            <button class="operation" id="float">.</button>
+            <button class="numbers" id="number0">0</button>
+            <button class="operation" id="multiply">*</button>
+            <button class="operation" id="divide">÷</button>
+        </div>
+        <div class="button_row_result">
+            <button id="result">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
