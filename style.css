@@ -30,7 +30,7 @@ body {
     outline: none;
 }
 
-.calc_container p {
+#clear {
     color: white;
     text-align: right;
     margin-right: 25px;
@@ -39,6 +39,12 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+
+#clear:hover {
+    color: black;
+    cursor: pointer;
 }
 
 .button_row {
